@@ -301,12 +301,12 @@ module.exports = {
             subject: 'Validación de cuenta',
             data: {
               title: `Hola ${doc.value.shop}, te damos la bienvenida a Geotiendas`,
-              message: `Estamos muy contentos de contar con vos, trabajaremos juntos para llevar tu negocio a un siguiente nivel. Tenés un mes para evaluar nuestra plataforma sin compromiso de suscripción, luego de este periodo tenés un mes más para reclamar tu tienda y en caso de que no te suscribas no podemos garantizar la permanencia de los eventual infomración que hayas cargado. Podés leer nuestros <a href="https://geotiendas.com/terminos-y-condiciones">términos y condiciones</a> para saber más.
+              message: `Estamos muy contentos de contar con vos, trabajaremos juntos para llevar tu negocio a un siguiente nivel. Tenés un mes para evaluar nuestra plataforma sin compromiso de suscripción, luego de este periodo tenés un mes más para reclamar tu tienda y en caso de que no te suscribas no podemos garantizar la permanencia de los eventual infomración que hayas cargado. Podés leer nuestros <a href="https://overlemon.com/terminos-y-condiciones">términos y condiciones</a> para saber más.
 <br><br>
 <h4>Datos de tu tienda</h4>
 <pre>
 Nombre de tu tienda: ${doc.value.shop}
-Enlace a tu tienda: <a href="https://${doc.value.id}.geotiendas.com">https://${doc.value.id}.geotiendas.com</a>
+Enlace a tu tienda: <a href="https://${doc.value.id}.overlemon.com">https://${doc.value.id}.overlemon.com</a>
 </pre>
 <br>
 <h4>Datos de acceso a tu panel</h4>

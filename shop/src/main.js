@@ -72,7 +72,7 @@ router.beforeEach((to, from, next) => {
       /* load default fonts if needed */
       document.documentElement.style.setProperty('--themefontname', themefontname)
       document.documentElement.style.setProperty('--themefontdistro', themefontdistro)
-      appendLink('themefont', `https://cdn.geotiendas.com/css/${themefontname}.css`)
+      appendLink('themefont', `https://cdn.overlemon.com/css/${themefontname}.css`)
     })
   } else {
     next()

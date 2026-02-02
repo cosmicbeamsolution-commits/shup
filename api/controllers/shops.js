@@ -226,8 +226,8 @@ module.exports = {
             scope: 'country',
             type: 'products',
             item_layout: 'landscape',
-            background: 'https://cdn.geotiendas.com/img/background.jpg',
-            logo: 'https://cdn.geotiendas.com/img/logo.jpg',
+            background: 'https://cdn.overlemon.com/img/background.jpg',
+            logo: 'https://cdn.overlemon.com/img/logo.jpg',
             country: req.body.country,
             country_iso: req.body.country_iso,
             email: req.body.email,
@@ -257,7 +257,7 @@ module.exports = {
 <h4>Datos de tu tienda</h4>
 <pre>
 Nombre de tu tienda: ${doc.value.shop}
-Enlace a tu tienda: <a href="https://${doc.value.id}.geotiendas.com">https://${doc.value.id}.geotiendas.com</a>
+Enlace a tu tienda: <a href="https://${doc.value.id}.overlemon.com">https://${doc.value.id}.overlemon.com</a>
 </pre>
 <br>
 <h4>Datos de acceso a tu panel</h4>
@@ -365,7 +365,7 @@ Gracias por confiar en nosotros y te damos la bienvenida a esta hermosa comunida
     let id = req.params.domain
     // const storeDefault = 'localhost'
     const storeDefault = 'mundomagico'
-    if (id.indexOf('geotiendas.com') > -1 || id === storeDefault) {
+    if (id.indexOf('overlemon.com') > -1 || id === storeDefault) {
       id = id.split('.')[0]
       find = { id: id }
     } else {

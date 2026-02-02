@@ -44,7 +44,7 @@ module.exports = {
       }
 
       const item = quote.order[0]
-      const shop_url = `https://${shop.id}.geotiendas.com`
+      const shop_url = `https://${shop.id}.overlemon.com`
       quote.subject = `Solicitud de cotización en ${shop.shop}`
       quote.description = `Cotización de servicio ${item.name} en ${shop.shop}`
       quote.currency = 'ARS'
@@ -87,7 +87,7 @@ module.exports = {
             data:{
               title: 'Nueva solicitud de cotización',
               message: `Hola ${shop.first_name}, registramos una solicitud de cotización en tu geotienda ${shop.shop}. <br>El número de la cotización es <pre>${quote.id}</pre>`,
-              link: `https://gestor.geotiendas.com/presupuestos/` + result._id.toString(),
+              link: `https://gestor.overlemon.com/presupuestos/` + result._id.toString(),
               linkText: `Ver cotización`,
               tag: 'proveedor'
             },
@@ -131,7 +131,7 @@ module.exports = {
         _id: new ObjectId(quote.shop)
       }, (err, shop) => {
 
-        const shop_url = `https://${shop.id}.geotiendas.com`
+        const shop_url = `https://${shop.id}.overlemon.com`
 
         if (err) {
           return res.status(200).send({ status: 'error', message:  'error: ' + err })

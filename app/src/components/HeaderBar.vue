@@ -42,7 +42,7 @@
           <router-link to="/planes" :class="textColor">
             <span>Planes</span>
           </router-link>
-          <a href="https://gestor.geotiendas.com" :class="textColor">
+          <a href="https://panel.overlemon.com" :class="textColor">
             <span>Iniciar sesión</span>
           </a>
           <button v-show="$route.fullPath !== '/crea-tu-tienda'" type="button" class="button is-info" @click="shopCreate()">
@@ -65,7 +65,7 @@
               </router-link>
             </span>
             <span class="navbar-item">
-              <a href="https://gestor.geotiendas.com" :class="textColor">
+              <a href="https://panel.overlemon.com" :class="textColor">
                 <span>Iniciar sesión</span>
               </a>
             </span>

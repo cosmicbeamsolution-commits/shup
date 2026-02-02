@@ -31,14 +31,14 @@
                 <router-link to="/forgotpassword" class="button is-light is-small ">
                   <span>Olvidé la contraseña</span>
                 </router-link>
-                <a href="https://geotiendas.com/crea-tu-tienda" class="button is-success is-outlined is-small">
+                <a href="https://overlemon.com/crea-tu-tienda" class="button is-success is-outlined is-small">
                   <span>Creá tu tienda ahora</span>
                 </a>
               </div>
             </div>
             <div class="column">
               <div class="is-vpadded content">
-                <blockquote>Gracias por utilizar nuestra plataforma. Ingresa con el <b>nombre de tu tienda</b> o <b>email</b>. El nombre de tu tienda es el que figura en la URL pública de tu tienda (ej: <b>tienda</b>.geotiendas.com) </blockquote>
+                <blockquote>Gracias por utilizar nuestra plataforma. Ingresa con el <b>nombre de tu tienda</b> o <b>email</b>. El nombre de tu tienda es el que figura en la URL pública de tu tienda (ej: <b>tienda</b>.overlemon.com) </blockquote>
                 <div class="has-text-centered is-vpadded is-hidden-mobile">
                   <img src="/img/art/team-success.svg" width="320" />
                 </div>

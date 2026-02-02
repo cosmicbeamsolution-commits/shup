@@ -176,8 +176,8 @@ export default {
   data () {
     return {
       defaults: {
-        background: 'https://cdn.geotiendas.com/img/background.jpg',
-        logo: 'https://cdn.geotiendas.com/img/logo.jpg',
+        background: 'https://cdn.overlemon.com/img/background.jpg',
+        logo: 'https://cdn.overlemon.com/img/logo.jpg',
         type: 'products',
         scope: 'country'
       },

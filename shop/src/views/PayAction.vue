@@ -8,7 +8,7 @@
         <img src="/img/credit-card.svg" width="220"/>
         <div class="form mercadopago">
           <div class="input-data has-text-centered">
-            <form action="https://pagos.geotiendas.com/procesar" method="POST" id="form"/>
+            <form action="https://pagos.overlemon.com/procesar" method="POST" id="form"/>
           </div>
         </div>
       </card-component>

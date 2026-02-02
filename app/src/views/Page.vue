@@ -57,7 +57,7 @@ export default {
   methods: {
     fixVue2EditorLinks () {
       setTimeout(() => {
-        const host = 'https://geotiendas.com'
+        const host = 'https://overlemon.com'
         this.$refs.content.querySelectorAll('a').forEach(e => {
           if (e.href.indexOf(host) > -1) {
             e.addEventListener('click', ev => {

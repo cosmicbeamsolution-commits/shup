@@ -4,7 +4,7 @@
       <div class="content">
         <card-component :is-float="true" :is-centered="true">
           <h2 class="has-text-weight-bold">Probá nuestro gestor</h2>
-          <p>Probá nuestro gestor con una cuenta de invitado <a class="has-text-info" href="https://gestor.geotiendas.com">ingresando</a> al Gestor para usuarios de Geotiendas
+          <p>Probá nuestro gestor con una cuenta de invitado <a class="has-text-info" href="https://panel.overlemon.com">ingresando</a> al Gestor para usuarios de Geotiendas
           <div class="field">
 <pre>Tienda: <b>demo</b>
 Contraseña: <b>demo</b>
@@ -36,7 +36,7 @@ Contraseña: <b>demo</b>
       <b-button icon-left="backspace" @click="goHome()">
         <span class="">Volver</span>
       </b-button>
-      <a href="https://gestor.geotiendas.com" target="_blank" class="button is-success">
+      <a href="https://panel.overlemon.com" target="_blank" class="button is-success">
         <span class="">Ingresar como invitado</span>
       </a>
     </div>

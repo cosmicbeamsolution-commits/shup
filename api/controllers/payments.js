@@ -33,7 +33,7 @@ module.exports = {
         return res.status(200).send({ status: 'error', message:  'No such customer' })
       }
 
-      const shop_url = `https://${shop.id}.geotiendas.com`
+      const shop_url = `https://${shop.id}.overlemon.com`
       sale.subject = 'Orden de compra en ' + shop.shop
       sale.description = 'Compra de ' + sale.count + ' productos en ' + shop.shop
       sale.currency = 'ARS'
@@ -149,7 +149,7 @@ module.exports = {
                   data:{
                     title: 'Nueva venta',
                     message: `Hola ${shop.first_name}, registramos una venta en tu geotienda ${shop.shop}. <br>El número de la venta es <pre>${sale.id}</pre>`,
-                    link: `https://gestor.geotiendas.com/ventas`,
+                    link: `https://gestor.overlemon.com/ventas`,
                     linkText: `Ver ventas`,
                     tag: 'proveedor'
                   },
@@ -209,7 +209,7 @@ Cuenta: ${shop.bank_account}
                 data:{
                   title: `[${shop.shop}] Venta`,
                   message: `Hola ${shop.first_name}, registramos una venta en tu geotienda ${shop.shop}. <br>El número de la venta es <pre>${sale.id}</pre>`,
-                  link: `https://gestor.geotiendas.com/ventas/` + result._id.toString(),
+                  link: `https://gestor.overlemon.com/ventas/` + result._id.toString(),
                   linkText: `Ver venta`,
                   tag: 'proveedor'
                 },
@@ -265,7 +265,7 @@ Cuenta: ${shop.bank_account}
           shop: quote.shop
         }, {}, (err, count) => {
           if (err) console.log('err: ' + err)
-          const shop_url = `https://${shop.id}.geotiendas.com`
+          const shop_url = `https://${shop.id}.overlemon.com`
           const quote_id = quote._id.toString()
           delete quote._id
           let sale = Object.assign(quote, {})
@@ -338,7 +338,7 @@ Cuenta: ${shop.bank_account}
                   data:{
                     title: 'Nueva venta',
                     message: `Hola ${shop.first_name}, registramos una venta en tu geotienda ${shop.shop} a raíz de la cotización ${quote.id}. <br>El número de la venta es <pre>${sale.id}</pre>`,
-                    link: `https://gestor.geotiendas.com/ventas`,
+                    link: `https://gestor.overlemon.com/ventas`,
                     linkText: `Ver ventas`,
                     tag: 'proveedor'
                   },
@@ -392,7 +392,7 @@ Cuenta: ${shop.bank_account}
                 data:{
                   title: `[${shop.shop}] Venta`,
                   message: `Hola ${shop.first_name}, registramos una venta en tu geotienda ${shop.shop}. <br>El número de la venta es <pre>${sale.id}</pre>`,
-                  link: `https://gestor.geotiendas.com/ventas/` + result._id.toString(),
+                  link: `https://gestor.overlemon.com/ventas/` + result._id.toString(),
                   linkText: `Ver venta`,
                   tag: 'proveedor'
                 },
@@ -440,7 +440,7 @@ Cuenta: ${shop.bank_account}
               }
 
               req.app.io.to(doc.value.shop).emit('mercadopago', doc.value)
-              const shop_url = `https://${shop.id}.geotiendas.com`
+              const shop_url = `https://${shop.id}.overlemon.com`
 
               let payment_text = ''
 

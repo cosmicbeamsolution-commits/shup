@@ -24,7 +24,7 @@
           focusable>
           <template slot-scope="props">
             <b-table-column field="id" label="#" width="40" sortable searchable>
-              <a :href="'https://' + props.row.id + '.geotiendas.com'" class="tag" :class="{ 'is-success': props.row.wizard_complete, 'is-danger': !props.row.wizard_complete }" title="Ver tienda" target="_blank">
+              <a :href="'https://' + props.row.id + '.overlemon.com'" class="tag" :class="{ 'is-success': props.row.wizard_complete, 'is-danger': !props.row.wizard_complete }" title="Ver tienda" target="_blank">
                 <span class="has-text-weight-bold"> {{ props.row.id }}</span>
               </a>
             </b-table-column>

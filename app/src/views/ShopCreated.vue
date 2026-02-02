@@ -14,13 +14,13 @@
           </div>
           <h4 class="has-text-centered" v-if="shop && shop.shop">¡Bienvenido a geotiendas {{ shop.shop }}!</h4>
           <p>Revisá tu email <span class="has-text-success">{{ shop.email }}</span> y encontrarás el enlace para empezar a configurar tu tienda y cargar tu catálogo sin iniciar sesión. También te detallamos tus datos de ingreso y la url de tu tienda.</p>
-          <p>Muchas gracias por ser parte de geotiendas.com</p>
+          <p>Muchas gracias por ser parte de overlemon.com</p>
         </card-component>
         <div class="buttons is-flex-center">
           <b-button icon-left="backspace" @click="goHome()">
             <span class="">Volver a inicio</span>
           </b-button>
-          <a class="button is-success" href="https://gestor.geotiendas.com" target="_blank">
+          <a class="button is-success" href="https://panel.overlemon.com" target="_blank">
             <span class="">Iniciar sesión</span>
           </a>
         </div>

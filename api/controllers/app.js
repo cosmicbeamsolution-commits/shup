@@ -73,7 +73,7 @@ module.exports = {
             data: {
               title:`Comunidad geotiendas`,
               message:`Gracias por suscribirte a nuestro newsletter. Te mantendremos al tanto de las noticias importantes de geotiendas.`,
-              link: `https://comunidad.geotiendas.com`,
+              link: `https://comunidad.overlemon.com`,
               linkText: `Visitar comunidad geotiendas`,
               tag: 'proveedor'
             },

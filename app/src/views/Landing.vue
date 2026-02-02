@@ -180,7 +180,7 @@
             </div>
             <div class="columns is-centered is-vcentered">
               <div class="column is-narrow">
-                <a @click="/* window.fbq('trackCustom', 'viewDemoFromLanding') */" href="https://demo.geotiendas.com" class="button is-text" target="_blank">
+                <a @click="/* window.fbq('trackCustom', 'viewDemoFromLanding') */" href="https://demo.overlemon.com" class="button is-text" target="_blank">
                   <span>Ver tienda demo </span>
                   <b-icon icon="eye"/>
                 </a>

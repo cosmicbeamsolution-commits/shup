@@ -1,8 +1,8 @@
-# [Geotiendas Plataforma de tiendas](https://geotiendas.com)
+# [Geotiendas Plataforma de tiendas](https://overlemon.com)
 
 ![version](https://img.shields.io/badge/version-1.2.4-blue.svg)  ![license](https://img.shields.io/badge/license-MIT-blue.svg)
 
-![Geotiendas](https://api.geotiendas.com/img/logo.png)
+![Geotiendas](https://api.overlemon.com/img/logo.png)
 
 **Geotiendas** Marketplace
 
@@ -11,9 +11,9 @@
 * Built with VueCLI 3.6, Buefy & Bulma
 * SCSS sources with variables
 * More than 17 custom components
-* [Premium version](https://geotiendas.com/bulma-admin-template/one) available
+* [Premium version](https://overlemon.com/bulma-admin-template/one) available
 
-[geotiendas.com](https://geotiendas.com) is happy to share this dashboard with you. Feel free to give your feedback
+[overlemon.com](https://overlemon.com) is happy to share this dashboard with you. Feel free to give your feedback
 
 ## Table of Contents
 
@@ -27,7 +27,7 @@
 
 ## Other versions
 
-More info on free & premium versions of Admin One Dashboard: https://geotiendas.com/bulma-admin-template/one
+More info on free & premium versions of Admin One Dashboard: https://overlemon.com/bulma-admin-template/one
 
 ### Bulma Admin Dashboard (HTML)
 
@@ -49,9 +49,9 @@ https://github.com/vikdiesel/admin-one-vue-bulma-dashboard
 
 ## Description & Demo
 
-* Description: https://geotiendas.com/bulma-admin-template/one
-* **Free Dashboard** Demo: https://admin-one-free.geotiendas.com
-* **Premium Dashboard** Demo: https://admin-one-vue-cli.geotiendas.com
+* Description: https://overlemon.com/bulma-admin-template/one
+* **Free Dashboard** Demo: https://admin-one-free.overlemon.com
+* **Premium Dashboard** Demo: https://admin-one-vue-cli.overlemon.com
 
 ## Quick Start
 
@@ -61,7 +61,7 @@ Do one of the following:
 
 * Clone this repo
 * Download as zip-archive from GitHub
-* Download from [geotiendas.com](https://geotiendas.com/bulma-admin-template/one)
+* Download from [overlemon.com](https://overlemon.com/bulma-admin-template/one)
 
 #### Install
 
@@ -79,7 +79,7 @@ Production-ready with minifed bundle `npm run build`
 
 We try to make sure Dashboard works well in latest versions of all major browsers
 
-![Chrome](https://geotiendas.com/images/browsers/chrome.png) ![Firefox](https://geotiendas.com/images/browsers/firefox.png) ![Microsoft Edge](https://geotiendas.com/images/browsers/edge.png) ![Opera](https://geotiendas.com/images/browsers/opera.png) ![Safari](https://geotiendas.com/images/browsers/safari.png)
+![Chrome](https://overlemon.com/images/browsers/chrome.png) ![Firefox](https://overlemon.com/images/browsers/firefox.png) ![Microsoft Edge](https://overlemon.com/images/browsers/edge.png) ![Opera](https://overlemon.com/images/browsers/opera.png) ![Safari](https://overlemon.com/images/browsers/safari.png)
 
 ## Reporting Issues
 
@@ -95,13 +95,13 @@ The issue list is reserved exclusively for bug reports and feature requests. Tha
 
 ## Licensing
 
-- Copyright &copy; 2019 Viktor Kuzhelnyi (https://geotiendas.com)
+- Copyright &copy; 2019 Viktor Kuzhelnyi (https://overlemon.com)
 - Licensed under MIT
 
 ## Useful Links
 
-- [geotiendas.com](https://geotiendas.com)
-- [Affiliate Program](https://geotiendas.com/info/affiliates)
+- [overlemon.com](https://overlemon.com)
+- [Affiliate Program](https://overlemon.com/info/affiliates)
 - [Buefy](https://buefy.org)
 - [VueCLI Configuration Reference](https://cli.vuejs.org/config/)
 

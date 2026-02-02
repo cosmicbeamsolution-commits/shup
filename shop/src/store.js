@@ -24,8 +24,8 @@ export default new Vuex.Store({
     uuid: null,
     os: 'unknown',
     browser: 'unknown',
-    shareapi: (process.env.NODE_ENV === 'production' ? 'https://share.geotiendas.com' : 'http://localhost:5501'),
-    endpoint: (process.env.NODE_ENV === 'production' ? 'https://api.geotiendas.com' : 'http://localhost:5500')
+    shareapi: (process.env.NODE_ENV === 'production' ? 'https://share.overlemon.com' : 'http://localhost:5501'),
+    endpoint: (process.env.NODE_ENV === 'production' ? 'https://api.overlemon.com' : 'http://localhost:5500')
   },
   mutations: {
     /* A fit-them-all commit */

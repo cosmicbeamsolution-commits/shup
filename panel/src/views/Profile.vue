@@ -7,10 +7,10 @@
     </hero-bar>
     <section class="section is-main-section">
       <div v-if="this.basic.shop.id === 'demo'" class="notification is-grey">
-        Esta cuenta no puede editar su perfil por ser una cuenta de prueba de la plataforma. Para editar tu propio perfil <a href="https://geotiendas.com/crea-tu-tienda" target="_blank">creá una cuenta</a> registrando tu tienda desde nuestra Landing Page.
+        Esta cuenta no puede editar su perfil por ser una cuenta de prueba de la plataforma. Para editar tu propio perfil <a href="https://overlemon.com/crea-tu-tienda" target="_blank">creá una cuenta</a> registrando tu tienda desde nuestra Landing Page.
         <hr>
         <div class="buttons is-center">
-          <a class="button is-white" href="https://geotiendas.com/crea-tu-tienda" target="_blank">Quiero editar perfil en mi tienda</a>
+          <a class="button is-white" href="https://overlemon.com/crea-tu-tienda" target="_blank">Quiero editar perfil en mi tienda</a>
         </div>
       </div>
       <div v-else>

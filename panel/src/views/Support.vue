@@ -5,7 +5,7 @@
     <hero-bar>
       <b-icon icon="email" size="is-medium"/>
       <span> Soporte</span>
-      <a slot="right" href="https://geotiendas.com/guia" target="_blank" class="button ">
+      <a slot="right" href="https://overlemon.com/guia" target="_blank" class="button ">
         Guía geotiendas
       </a>
     </hero-bar>

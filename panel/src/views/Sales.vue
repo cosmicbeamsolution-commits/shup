@@ -147,7 +147,7 @@
       <div v-else class="has-text-centered is-vpadded-x3 content">
         <img src="/img/art/team-success.svg" width="320" />
         <h3>Sin ventas, pero solo por ahora!</h3>
-        <p>Cuando tu tienda registre su primera venta aparecerá acá. <br>Podés consultar nuestra Guía y conocer más acerca de <a href="https://geotiendas.com/guia/tu-primera-venta">Cómo concretar tu primera venta</a></p>
+        <p>Cuando tu tienda registre su primera venta aparecerá acá. <br>Podés consultar nuestra Guía y conocer más acerca de <a href="https://overlemon.com/guia/tu-primera-venta">Cómo concretar tu primera venta</a></p>
       </div>
     </section>
   </div>

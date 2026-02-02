@@ -148,7 +148,7 @@ export default {
         }
         if (data.value.themefont) {
           document.documentElement.style.setProperty('--themefontdistro', data.value.themefont.distro)
-          appendLink('themefont', `https://cdn.geotiendas.com/css/${data.value.themefont.name}.css`)
+          appendLink('themefont', `https://cdn.overlemon.com/css/${data.value.themefont.name}.css`)
         }
       }
     },

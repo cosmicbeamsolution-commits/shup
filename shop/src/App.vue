@@ -22,7 +22,7 @@
             <p class="has-text-light">Esta tienda está desactivada o aún le falta configurar. Podés volver a intentar dentro de un rato.</p>
           </div>
           <hr>
-          <a href="https://comunidad.geotiendas.com" class="button is-info is-outlined  has-text-weight-bold">Ver más tiendas</a>
+          <a href="https://comunidad.overlemon.com" class="button is-info is-outlined  has-text-weight-bold">Ver más tiendas</a>
         </div>
       </card-component>
     </div>
@@ -38,7 +38,7 @@
             <p class="has-text-light">Esta tienda no ha sido creada todavía.</p>
           </div>
           <hr>
-          <a :href="`https://geotiendas.com/crea-tu-tienda/${shop.id}`" class="button is-success is-outlined  has-text-weight-bold">Crear mi tienda {{ shop.id }}</a>
+          <a :href="`https://overlemon.com/crea-tu-tienda/${shop.id}`" class="button is-success is-outlined  has-text-weight-bold">Crear mi tienda {{ shop.id }}</a>
         </div>
       </card-component>
     </div>

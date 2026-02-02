@@ -45,7 +45,7 @@
                 <b-field label="Tienda no disponible" message="Activá esta opción para deshabilitar temporalmente tu geotienda">
                   <b-switch v-model="offline"></b-switch>
                 </b-field>
-                <p><a href="https://geotiendas.com/guia/estado" target="_blank"><b-icon icon="book-information-variant"/> Saber más acerca de estado de la tienda</a></p>
+                <p><a href="https://overlemon.com/guia/estado" target="_blank"><b-icon icon="book-information-variant"/> Saber más acerca de estado de la tienda</a></p>
               </div>
             </div>
           </div>
@@ -75,7 +75,7 @@
                 <b-field>
                   <b-button type="is-danger" @click="colorSchemeDefaults">Reestablecer Diseño</b-button>
                 </b-field>
-                <p> <a href="https://geotiendas.com/guia/esquema" target="_blank"><b-icon icon="book-information-variant"/> Saber más acerca de ajustes estéticos</a></p>
+                <p> <a href="https://overlemon.com/guia/esquema" target="_blank"><b-icon icon="book-information-variant"/> Saber más acerca de ajustes estéticos</a></p>
               </div>
             </div>
           </div>
@@ -96,7 +96,7 @@
                     <b-input type="text" v-model="item.text" :placeholder="`Texto ${item.icon}`"/>
                   </b-field>
                 </b-field>
-                <p><a href="https://geotiendas.com/guia/redes" target="_blank"><b-icon icon="book-information-variant"/> Saber más acerca de redes sociales</a></p>
+                <p><a href="https://overlemon.com/guia/redes" target="_blank"><b-icon icon="book-information-variant"/> Saber más acerca de redes sociales</a></p>
               </div>
             </div>
           </div>
@@ -109,7 +109,7 @@
                 <b-field :type="{ 'is-success': this.domain }" expanded>
                   <b-input type="text" v-model="domain" placeholder="Escribe tu dominio ej: dominio.com.ar" icon-right="close-circle" icon-right-clickable @icon-right-click="clearDomain"/>
                 </b-field>
-                <p><a href="https://geotiendas.com/guia/dominio" target="_blank"><b-icon icon="book-information-variant"/> Saber más acerca de dominio personalizado</a></p>
+                <p><a href="https://overlemon.com/guia/dominio" target="_blank"><b-icon icon="book-information-variant"/> Saber más acerca de dominio personalizado</a></p>
               </div>
             </div>
           </div>

@@ -68,7 +68,7 @@
           <span v-show="shop.trial" class="tag is-light  has-text-weight-bold">prueba</span>
           <span v-show="!shop.trial" class="tag is-success  has-text-weight-bold">{{ shop.plan }}</span>
         </router-link>
-        <a v-if="shop" :href="'https://' + shop.id + '.geotiendas.com'" class="navbar-item has-divider is-desktop-icon-only" title="Ir a mi geotienda" target="_blank">
+        <a v-if="shop" :href="'https://' + shop.id + '.overlemon.com'" class="navbar-item has-divider is-desktop-icon-only" title="Ir a mi geotienda" target="_blank">
           <b-icon icon="shopping" custom-size="default"/>
         </a>
         <a class="navbar-item is-desktop-icon-only" title="Log out" @click="logout">

@@ -67,7 +67,7 @@
                 </section>
               </div>
             </div>
-            <p><a href="https://geotiendas.com/guia/perfil" target="_blank"><b-icon icon="book-information-variant"/> Saber más acerca de info de la tienda</a></p>
+            <p><a href="https://overlemon.com/guia/perfil" target="_blank"><b-icon icon="book-information-variant"/> Saber más acerca de info de la tienda</a></p>
           </div>
           <div v-show="tab === 'stock'" class="content">
             <label class="label">Establecé la orientación de las tarjetas</label>
@@ -84,7 +84,7 @@
                 <div class="item-layout" :class="form.item_layout"></div>
               </div>
             </div>
-            <p><a href="https://geotiendas.com/guia/orientacion-tarjeta" target="_blank"><b-icon icon="book-information-variant"/> Saber más acerca orientación de tarjeta</a></p>
+            <p><a href="https://overlemon.com/guia/orientacion-tarjeta" target="_blank"><b-icon icon="book-information-variant"/> Saber más acerca orientación de tarjeta</a></p>
           </div>
           <div v-show="tab === 'type'" class="content">
             <label class="label">Establecé el tipo de tu tienda</label>
@@ -98,7 +98,7 @@
                 </div>
               </div>
             </div>
-            <p><a href="https://geotiendas.com/guia/tipo" target="_blank"><b-icon icon="book-information-variant"/> Saber más acerca de tipo de la tienda</a></p>
+            <p><a href="https://overlemon.com/guia/tipo" target="_blank"><b-icon icon="book-information-variant"/> Saber más acerca de tipo de la tienda</a></p>
           </div>
           <div v-show="tab === 'about'" class="content">
             <label class="label">Agregá información adicional de tu tienda</label>
@@ -122,7 +122,7 @@
                 </section>
               </div>
             </div>
-            <p><a href="https://geotiendas.com/guia/info" target="_blank"><b-icon icon="book-information-variant"/> Saber más acerca de info adicional de la tienda</a></p>
+            <p><a href="https://overlemon.com/guia/info" target="_blank"><b-icon icon="book-information-variant"/> Saber más acerca de info adicional de la tienda</a></p>
           </div>
           <div v-show="tab === 'scope'" class="content">
             <label class="label">Establecé el área de cobertura de tus envíos</label>
@@ -167,7 +167,7 @@
                 </div>
               </div>
             </div>
-            <p><a href="https://geotiendas.com/guia/envios" target="_blank"><b-icon icon="book-information-variant"/> Saber más acerca de envíos de la tienda</a></p>
+            <p><a href="https://overlemon.com/guia/envios" target="_blank"><b-icon icon="book-information-variant"/> Saber más acerca de envíos de la tienda</a></p>
           </div>
           <div v-show="tab === 'promos'">
             <label class="label">Establecé promos de tus productos</label>
@@ -237,11 +237,11 @@
                 </table>
               </div>
             </div>
-            <p><a href="https://geotiendas.com/guia/promos" target="_blank"><b-icon icon="book-information-variant"/> Saber más acerca de promociones</a></p>
+            <p><a href="https://overlemon.com/guia/promos" target="_blank"><b-icon icon="book-information-variant"/> Saber más acerca de promociones</a></p>
           </div>
           <div v-show="tab === 'payments'">
             <label class="label">Establecé cómo querés cobrar en tu tienda</label>
-            <p>Te ofrecemos las alternativas mas usadas hoy de venta electrónica. Si tu forma de cobro no está en la lista <a href="https://geotiendas.com/contacto" target="_blank">háznoslo saber</a>, tal vez la podamos agregar! </p>
+            <p>Te ofrecemos las alternativas mas usadas hoy de venta electrónica. Si tu forma de cobro no está en la lista <a href="https://overlemon.com/contacto" target="_blank">háznoslo saber</a>, tal vez la podamos agregar! </p>
             <hr>
             <div class="columns">
               <div class="column">
@@ -292,7 +292,7 @@
                 <vue-editor id="editor" useCustomImageHandler @image-added="handleImageAdded" v-model="form.payment_text"> </vue-editor>
               </div>
             </div>
-            <p><a href="https://geotiendas.com/guia/pagos" target="_blank"><b-icon icon="book-information-variant"/> Saber más acerca de pagos de la tienda</a></p>
+            <p><a href="https://overlemon.com/guia/pagos" target="_blank"><b-icon icon="book-information-variant"/> Saber más acerca de pagos de la tienda</a></p>
           </div>
           <hr>
           <div class="buttons is-flex-end">

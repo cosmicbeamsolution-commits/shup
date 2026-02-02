@@ -40,7 +40,7 @@
         </div>
         <div class="level-right is-hidden-mobile">
           <div class="level-item is-rpadded">
-            <a href="https://geotiendas.com/crea-tu-tienda" target="_blank" class="has-text-color">
+            <a href="https://overlemon.com/crea-tu-tienda" target="_blank" class="has-text-color">
               <span class="icon is-hpadded">
                 <svg-icon icon="bag"/>
               </span>
