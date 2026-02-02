@@ -135,7 +135,7 @@ module.exports = {
   getBasicData: (req, res) => {
     let locale = {
       country: 'Argentina',
-      country_iso: 'es-AR',
+      country_iso: 'ar',
       city: 'Buenos Aires',
       region: 'Buenos Aires'
     }
