@@ -15,8 +15,7 @@ const corsOptions = {
   origin: [
     /^http:\/\/localhost/,
     /^http:\/\/192.168.2.106/,
-    /geotiendas\.com$/,
-    /neotiendas\.com$/
+    /overlemon\.com$/
   ],
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE"
 }
