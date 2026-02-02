@@ -1,0 +1,26 @@
+.items-table {
+  .is-started {
+    background-color: #ffa63333;
+  }
+  .is-cancelled {
+    background-color: #bbbbbb33;
+    .tag {
+      background-color: $light;
+    }
+    * {      
+      color: $grey!important;
+    }
+  }
+  .is-delivered {
+    background-color: #02b87533;
+  }
+  .is-archived {
+    background-color: #bbbbbb33;
+  }
+  .is-actions-cell {
+    .buttons {
+      position: relative;
+      top: -4px;
+    }
+  }
+}

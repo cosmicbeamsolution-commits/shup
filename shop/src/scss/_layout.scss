@@ -1,0 +1,443 @@
+:root {
+  --themecolor: #ffffff;
+  --textcolor: #262222;
+  --themefontdistro: 'Raleway SemiBold';
+}
+
+html, body, .navbar {
+  background-color: var(--themecolor);
+  color: var(--textcolor);
+  transition: background-color 1s ease-in-out;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+body, button, input, select, textarea { 
+  font-family: var(--themefontdistro);
+}
+
+#app {
+  > div {
+    overflow: hidden;
+  }
+}
+
+.is-content {
+  h1, h2, h3, h4, h5, h6, label, p {
+    color: var(--textcolor);
+  }
+}
+
+.svg-icon {
+  background-color: transparent;
+  transform: translateY(0.2rem);
+}
+
+.is-vexpanded {
+  min-height: 70vh;
+}
+
+.is-expandable {
+  transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  &:hover {
+    transform: scale(1.5)
+  }
+}
+
+#map {
+  min-height: 100%;
+}
+.is-background-image {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.is-relative {
+  position: relative;
+}
+
+.is-circle {
+  border-radius: 100%;
+}
+
+.is-logo-title {
+  margin-top: 1rem;
+  img {
+    height: 32px;
+  }
+}
+
+.shop-about {
+  .shop-about-photo {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    min-height: 260px;
+    border-radius: 10px;
+  }
+  .shop-about-text {
+    padding-top: 1rem;
+    .shop-about-important {
+      padding: 1rem;
+      background-color: var(--textcolor);
+      color: var(--themecolor);
+      border-radius: 10px;
+    }
+  }
+}
+.is-item-button {
+  &.is-grouped {
+    margin-right: 2.5rem;
+  }
+  .icon {
+    position: relative;
+    .svg-icon {
+      transform: translateY(0.295rem);
+    }
+    .count {
+      display: inline-block;
+      position: absolute;
+      right: -0.25rem;
+      top: -0.5rem;
+      font-size: 0.75rem;
+      font-weight: 600;
+    }
+  }
+}
+
+.is-share-icons {
+  padding-left: 0;
+  padding-right: 0;
+  > .field {
+    &.is-grouped {
+      justify-content: center;
+    }
+  }
+  .control {
+    display: inline-block;
+    margin-right: 0.25rem;
+    margin-bottom: 0!important;
+    padding:0;
+    border-radius: 10px;
+    &.is-condensed {
+      margin-right: -1rem;
+    }
+    &:hover {
+      background-color: white;
+      box-shadow: 0px 10px 20px #0000001a;
+    }
+    .icon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 2.75rem;
+      height: 2.75rem;
+      .mdi {
+        color: $dark;
+        font-size: 1.75rem;
+      }
+    }
+  }
+}
+
+.mapboxgl-control-container {
+  display: none;
+}
+
+.is-box-rounded {
+  border-radius: 15px;
+}
+
+.is-payform {
+  max-width: 780px;
+  margin: auto;
+  .level {
+    margin-bottom: 0.25rem;
+  }
+}
+
+.has-stroke-white {
+  svg {
+    path {
+      stroke: white;
+    }
+  }
+}
+.has-numberinput-is-small {
+  input.is-small {
+    min-height: 2.25rem;
+    font-size: 1rem;
+    font-weight: 800;
+  }
+}
+.has-text-shadow {
+  text-shadow: 0 0 3px #000e;
+}
+
+.notification {
+  position: fixed;
+  z-index: 2;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 0;
+}
+
+.order-size-tag {
+  position: absolute;
+  top: 0.25rem;
+  right: -0.5rem;
+  border-radius: 35px!important;
+}
+
+.is-flex-columns {
+  flex-direction: column;
+}
+
+.is-flex-start {
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.is-flex-end {
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.is-flex-center {
+  align-items: center;
+  justify-content: center;
+}
+
+.is-flex-baseline {
+  align-items: baseline;
+}
+
+.is-space-between {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.is-bottom-padded {
+  padding-bottom: 2rem;
+}
+
+.is-marginless-bottom {
+  margin-bottom: 0!important;
+}
+
+.is-bottom-extra-padded {
+  padding-bottom: 4rem;
+}
+
+.is-bottom-extra-extra-padded {
+  padding-bottom: 6rem;
+}
+
+.is-paddingless-right {
+  padding-right: 0!important;
+}
+
+.is-margin-auto {
+  margin: auto;
+}
+
+.is-height-auto {
+  height: auto!important;
+}
+
+.is-paddingless-bottom {
+  padding-bottom: 0!important;
+}
+
+.is-line-height1 {
+  line-height: 1;
+}
+
+.has-line-height {
+  line-height: 1.25;
+}
+
+.is-clickable {
+  cursor: pointer;
+}
+
+.is-hpadded {
+  padding: 0 1rem;
+}
+
+.is-vpadded {
+  padding: 1.333rem 0;
+}
+
+.is-subtotal {
+  min-width: 5rem;
+}
+
+.is-bpadded {
+  padding-bottom: 1rem;
+}
+
+.is-tpadded {
+  padding-top: 1rem;
+}
+
+.is-rpadded {
+  padding-right: 1.5rem;
+}
+
+.is-fixed-icon {
+  position: relative;
+  top: 3px;
+}
+
+.has-theme-background {
+  background-color: var(--themecolor)!important;
+  i, svg {
+    fill: var(--textcolor);
+    stroke: var(--textcolor);
+    path, rect {
+      stroke: var(--textcolor);
+    }
+  }
+}
+
+.has-theme-color {
+  color: var(--themecolor)!important;
+  i, svg {
+    fill: var(--textcolor);
+    stroke: var(--textcolor);
+    path, rect {
+      stroke: var(--textcolor);
+    }
+  }
+}
+
+.has-theme-scheme {
+  background-color: var(--themecolor)!important;
+  svg {
+    fill: var(--textcolor);
+    stroke: var(--textcolor);
+    path, rect {
+      stroke: var(--textcolor);
+    }
+  }
+}
+
+.has-text-color {
+  color: var(--textcolor)!important;
+  svg {
+    fill: var(--themecolor);
+    path, rect {
+      stroke: var(--textcolor);
+    }
+  }
+}
+.has-theme-scheme {
+  fill: var(--themecolor);
+  stroke: var(--textcolor);
+  path, rect {
+    fill: var(--textcolor);
+    stroke: var(--themecolor);
+  }
+  svg {
+    fill: var(--themecolor);
+    stroke: var(--textcolor);
+    path, rect {
+      fill: var(--textcolor);
+      stroke: var(--themecolor);
+    }
+  }
+}
+
+.has-theme-buttons {
+  .button {
+    padding: 0.2rem;
+    opacity: 0.25;
+    background-color: var(--textcolor);
+    color: var(--themecolor);
+    svg {
+      fill: var(--textecolor);
+      path, rect {
+        stroke: var(--themecolor);
+      }
+    }
+    &.is-selected {
+      opacity: 1;
+    }
+  }
+}
+
+.is-fixed-status {
+  background-color: white;
+  position: fixed;
+  z-index: 99;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.min-height-1 {
+  display: inline-block;
+  min-height: 1.5rem;
+}
+
+.shop-about {
+  padding: 1.5rem 0;
+}
+
+#orderTotal.is-float {
+  position: fixed;
+  bottom: 0.5rem;
+  right: 0.5rem;
+}
+
+@include mobile {
+  .is-grid {
+    > .column {
+      padding: 0;
+    }
+  }
+}
+
+@include touch {
+  .container {
+    max-width: 680px;
+  }
+}
+
+@include desktop {
+  .container {
+    max-width: 880px;
+  }
+
+  .is-grid {
+    padding-right: 1.5rem;
+    > .column {
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+    }
+  }
+  .is-share-icons {
+    > .field {
+      &.is-grouped {
+        justify-content: flex-end;
+      }
+    }
+  }
+}
+
+@include widescreen {
+  .container {
+    max-width: 1246px;
+  }
+}
+
+@include fullhd {
+  .container {
+    max-width: 1600px;
+  }
+}

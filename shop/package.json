@@ -1,0 +1,69 @@
+{
+  "name": "geotiendas-shop",
+  "version": "0.6.1",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve --port 9200",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@mapbox/mapbox-gl-draw": "^1.2.0",
+    "@mdi/font": "^4.9.95",
+    "@splidejs/vue-splide": "^0.3.5",
+    "axios": "^0.19.2",
+    "buefy": "^0.8.20",
+    "bulma": "^0.7.5",
+    "core-js": "^3.16.1",
+    "lodash": "^4.17.21",
+    "mapbox-gl": "^1.12.0",
+    "moment": "^2.29.1",
+    "numeral": "^2.0.6",
+    "register-service-worker": "^1.7.2",
+    "vue": "^2.6.14",
+    "vue-lottie": "^0.2.1",
+    "vue-router": "^3.5.2",
+    "vue-socket.io": "^3.0.10",
+    "vue-tinybox": "^1.3.0",
+    "vuejs-datepicker": "^1.6.2",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.5.13",
+    "@vue/cli-plugin-eslint": "^4.5.13",
+    "@vue/cli-plugin-pwa": "^4.5.13",
+    "@vue/cli-plugin-router": "^4.5.13",
+    "@vue/cli-plugin-vuex": "^4.5.13",
+    "@vue/cli-service": "^4.5.13",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "sass": "^1.37.5",
+    "sass-loader": "^8.0.2",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "@vue/standard"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}

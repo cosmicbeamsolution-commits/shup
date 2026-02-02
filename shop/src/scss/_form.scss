@@ -1,0 +1,235 @@
+.lottie-container {
+  position: fixed; 
+  z-index: 99;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.field-label {
+  min-width: 100px;
+}
+.control.has-icons-left .icon, .control.has-icons-right .icon {
+  height: 2.75em;
+}
+.control.is-loading::after {
+  right: 0.85em;
+  top: 0.85em;
+}
+.button:not(.is-small) {
+  border-radius: 15px;
+  min-width: 44px;
+  min-height: 44px;
+  transition: .6s;
+  overflow: hidden;
+  /* background-color: transparent;
+  color: #403939; */
+  &:focus{
+    outline: 0;
+  }
+  &:not(.is-loading):before{
+    content: '';
+    display: block;
+    position: absolute;
+    background-color: rgba(255,255,255,0.75);
+    width: 60px;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: .5;
+    filter: blur(30px);
+    transform: translateX(-100px)  skewX(-15deg);
+  }
+  &:not(.is-loading):after{
+    content: '';
+    display: block;
+    position: absolute;
+    background-color: rgba(255,255,255,0.25);
+    width: 30px;
+    height: 100%;
+    left: 30px;
+    top: 0;
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100px) skewX(-15deg);
+  }
+  &:not(.is-loading):hover{
+    filter: hue-rotate(25deg);
+    box-shadow: 0px 10px 20px #0000001a;
+    cursor: pointer;
+    &:before{
+      transform: translateX(100px)  skewX(-15deg);  
+      opacity: 0.6;
+      transition: .7s;
+    }
+    &:after{
+      transform: translateX(100px) skewX(-15deg);  
+      opacity: 1;
+      transition: .7s;
+    }
+  }
+  &.is-circle {
+    width: 36px;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+  }
+  &.is-disc {
+    border-radius: 50%;
+    width: 7rem;
+    height: 7rem;
+    padding: 1rem;
+  }
+  &.is-info {
+    .svg-icon {
+      svg {
+        rect, path {
+          stroke: #FAFAFA;
+        }
+      }
+    }
+  }
+}
+
+button.button:not(.is-small) {
+  min-height: 44px;
+}
+
+.button.is-theme {
+  background-color: var(--themecolor);
+  color: var(--textcolor);
+  filter: contrast(125%);
+}
+
+@media not all and (min-resolution:.001dpcm) { 
+  @supports (-webkit-appearance:none) {
+    button.button {
+      -webkit-padding-before: 8px;
+    }
+  }
+}
+
+.field {
+  .has-addons {
+    justify-content: center;
+  }
+  label {
+    position: relative;
+    left: 0.75rem;
+    top: 0.5rem;
+  }
+  .help {
+    position: relative;
+    left: 0.75rem;
+    top: 0;
+  }
+  > .has-icons-right {
+    .svg-icon {
+      margin-right: 0.25rem;
+      svg {
+        width: 16px;
+        height: 16px;
+      }
+    }
+  }
+}
+.upload {
+  .upload-draggable {
+    display: block;
+  }
+}
+
+
+.input:not(.is-small) {
+  min-height: 44px;
+  padding: 1.25rem 1rem;
+  box-shadow: none;
+  border-width: 0;
+  background-color: #ebebeb;
+  &:focus, &:active {
+    box-shadow: none!important;
+  }
+}
+
+.select {
+  min-height: 44px;
+  &:not(.is-multiple):not(.is-loading)::after {
+    border-color: white;
+  }
+  select {
+    min-height: 44px;
+    background-color: var(--textcolor);
+    border-color: var(--themecolor);
+    color: var(--themecolor);
+  }
+}
+
+.select:not(.is-multiple):not(.is-loading)::after {
+  border-color: var(--themecolor);
+}
+
+
+.textarea {
+  border: 2px solid $info;
+  border-radius: 15px;
+  &.is-rows-condensed {
+    min-height: 4.75rem;
+  }
+}
+
+.b-numberinput {
+  .input {
+    width: 50px;
+  }
+}
+
+.switch input[type=checkbox]+.check:before {
+  box-shadow: none;
+}
+
+.switch, .b-checkbox.checkbox {
+  input[type=checkbox] {
+    &:focus + .check, &:focus:checked + .check {
+      box-shadow: none!important;
+    }
+  }
+}
+
+.b-checkbox.checkbox input[type=checkbox], .b-radio.radio input[type=radio] {
+  &+.check {
+    border: $checkbox-border;
+  }
+}
+
+.is-icon-email {
+  color: #34a853;
+}
+.is-icon-cellphone {
+  color: #ee1d52;
+}
+.is-icon-facebook {
+  color: #1877f2;
+}
+.is-icon-whatsapp {
+  color: #25d366;
+}
+.is-icon-instagram {
+  color: #c32aa3;
+}
+.is-icon-youtube {
+  color: #ff0000;
+}
+.is-icon-medium {
+  color: #02b875;
+}
+.is-icon-twitter {
+  color: #1da1f2;
+}
+.is-icon-vimeo {
+  color: #1ab7ea;
+}
+.is-icon-twitch {
+  color: #9146ff;
+}

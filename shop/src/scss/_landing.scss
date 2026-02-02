@@ -1,0 +1,77 @@
+.landing {
+  .splide {
+    position: relative;
+    z-index: 1;
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+    .splide__slide {
+      opacity: 0.75;
+      transition: opacity 0.5s linear;
+      &.is-active {
+        opacity: 1;
+      }
+    }
+    .splide-image-container {
+      .splide-image {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        padding-top: 5rem;
+        width: 100%;
+        height: 20rem;
+        background-color: rgba(0,0,0,0.25);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: cover;
+        > h1 {
+          margin-bottom: 1rem!important;
+          font-weight: 800;
+          text-shadow: 0 0 3px #000e;
+        }
+        > p {
+          line-height: 1;
+          text-shadow: 0 0 3px #000e;
+        }
+      }
+    }
+  }
+}
+
+@include desktop {
+  .landing {
+    .splide {
+      .splide-image-container {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        .splide-image {
+          box-shadow: 0px 10px 20px #00000033;
+          border-radius: 20px;
+          padding-top: 7rem;
+        }
+      }
+    }
+  }
+}
+
+@include tablet {
+  .landing {
+    .splide {
+      .splide-image-container {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        .splide-image {
+          box-shadow: 0px 10px 20px #00000033;
+          border-radius: 20px;
+          padding-top: 7rem;
+        }
+      }
+    }
+  }
+}
+
+@include mobile {
+  .landing {
+    .is-main-section {
+      padding-top: 4.333rem!important;
+    }
+  }
+}

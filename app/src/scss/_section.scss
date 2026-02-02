@@ -1,0 +1,82 @@
+section.section.is-main-section {
+  padding-top: $default-padding * 6;
+  padding-bottom: $default-padding;
+}
+
+section.section.is-rolled {
+  min-height: 70vh;
+}
+
+.hero {
+  &.is-top {
+    padding-top: 3rem;
+  }
+  .hero-body {
+    &.is-condensed {
+      padding-left: 0.75rem;
+      padding-right: 0.75rem;
+    }
+  }
+}
+
+.is-rounded {
+  border-radius: 2rem;
+}
+
+.has-text-shadow {
+  text-shadow: 0 0 3px #333e;
+}
+
+.has-text-weight-bolder {
+  font-weight: 800!important;
+}
+
+.order-size-tag {
+  position: absolute;
+  top: 0.25rem;
+  right: -0.5rem;
+  border-radius: 35px!important;
+}
+
+.is-fit-section {
+  margin-top: -3.25rem;
+  padding-bottom: 0;
+}
+
+.splide__arrow {
+  background: transparent!important;
+  width: 3em!important;
+  height: 3em!important;
+  transition: all 0.25s linear; 
+}
+
+.splide__arrow svg {
+  width: 3em!important;
+  height: 3em!important;
+}
+
+@include mobile {
+  section.section {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@include touch {
+  section.section.is-main-section {
+    margin-top: 0;
+  }
+}
+
+@include desktop {
+  .hero {
+    &.is-top {
+      padding-top: 6rem;
+    }
+  }
+  .is-vexpanded {
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    min-height: 10rem;
+  }
+}

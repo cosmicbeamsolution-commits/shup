@@ -1,0 +1,15 @@
+section.section.is-main-section {
+  padding-top: $default-padding;
+}
+
+@include desktop {
+	section.section.is-body-centered {
+		margin-left: -14rem;
+	}
+}
+
+@include mobile {
+	section.section.is-main-section {
+		padding-left: 0.75rem;
+	}
+}

@@ -1,0 +1,17 @@
+footer {
+  span {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 28px;
+  }
+  a {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 28px;
+    color: var(--themecolor);
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}

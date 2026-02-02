@@ -1,0 +1,23 @@
+footer {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  .content {
+    margin: 0 auto;
+    max-width: 960px;
+    .created-with {
+      svg {
+        margin-top: 0.5rem;
+        margin-left: -1rem;
+        height: 24px;
+      }
+    }
+    svg {
+      fill: var(--themecolor);
+      stroke: var(--textcolor);
+      path, rect {
+        fill: var(--textcolor);
+        stroke: var(--themecolor);
+      }
+    }
+  }
+}

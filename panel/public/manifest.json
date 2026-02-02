@@ -1,0 +1,15 @@
+{
+  "name": "Geotiendas",
+  "short_name": "Geotiendas",
+  "icons": [
+    {
+      "src": "./favicon.png",
+      "sizes": "132x132",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#af7eff",
+  "theme_color": "#af7eff"
+}

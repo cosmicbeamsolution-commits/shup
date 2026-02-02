@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "Dosis Light";
+  src: url("https://cdn.geotiendas.com/fonts/dosis/Dosis-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Dosis Regular";
+  src: url("https://cdn.geotiendas.com/fonts/dosis/Dosis-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Dosis Medium";
+  src: url("https://cdn.geotiendas.com/fonts/dosis/Dosis-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Dosis SemiBold";
+  src: url("https://cdn.geotiendas.com/fonts/dosis/Dosis-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Dosis Bold";
+  src: url("https://cdn.geotiendas.com/fonts/dosis/Dosis-Bold.ttf") format("truetype");
+}

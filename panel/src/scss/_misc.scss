@@ -1,0 +1,89 @@
+.is-alpha {
+  opacity: 0.5;
+}
+.is-flex-left {
+  justify-content: left;
+}
+.is-icon-facebook {
+  color: #1877f2;
+}
+.is-icon-whatsapp {
+  color: #25d366;
+}
+.is-icon-instagram {
+  color: #c32aa3;
+}
+.is-icon-youtube {
+  color: #ff0000;
+}
+.is-icon-medium {
+  color: #02b875;
+}
+.is-icon-twitter {
+  color: #1da1f2;
+}
+.is-icon-vimeo {
+  color: #1ab7ea;
+}
+.is-icon-twitch {
+  color: #9146ff;
+}
+
+.is-background-image {
+  background-color: #fafafa;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  min-height: 150px;
+}
+
+#chart {
+  max-height: 270px;
+}
+
+.is-user-avatar {
+  &.has-max-width {
+    max-width: $size-base * 7;
+  }
+
+  &.is-aligned-center {
+    margin: 0 auto;
+  }
+
+  img {
+    margin: 0 auto;
+    border-radius: $radius-rounded;
+  }
+}
+
+.icon.has-update-mark {
+  position: relative;
+
+  &:after {
+    content: '';
+    width: $icon-update-mark-size;
+    height: $icon-update-mark-size;
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    background-color: $icon-update-mark-color;
+    border-radius: $radius-rounded;
+  }
+}
+
+@media print {
+  .section {
+    padding: 0;
+  }
+  .footer,
+  .navbar,
+  .aside,
+  .is-title-bar {
+    display: none;
+  }
+  .hero {
+    .level-right {
+      display: none;
+    }
+  }
+}

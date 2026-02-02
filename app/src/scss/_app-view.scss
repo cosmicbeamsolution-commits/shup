@@ -1,0 +1,60 @@
+.app-view {
+	min-height: 60vw;
+	padding-bottom: 3.75rem;
+
+	&.card-container {
+		min-height: 100vh;
+		background: #CBAAC7;
+		display: flex;
+		align-items: center;
+
+		.is-narrow {
+			margin-top: 50px;
+			margin-bottom: 0;
+		}
+	}
+
+	.is-special-searchbox {
+		margin-left: 1rem;
+		margin-right: -0.75rem;
+		min-height: 48px;
+		.input {
+			margin-top: 0.25rem
+		}
+		.field {
+			padding-bottom: 0;
+			button {
+				margin-bottom: 0;
+			}
+		}
+		.field {
+			&.is-grouped {
+				.field {
+					&.is-6 {
+						max-width: 45%;
+						padding-right: 1.75rem;
+					}
+				}
+			}
+		}
+	}
+	.is-special-title {
+		font-weight: 800;
+		position: relative;
+		z-index: 1;
+	}
+}
+
+@include desktop {
+	.app-view {
+		> .container {
+			> .content {
+				> .columns {
+					> .is-8 {
+						padding-right: 0;
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,35 @@
+.fade-enter-active, .fade-leave-active {
+  .splide {
+    opacity: 0;
+  }
+  transition-property: opacity;
+  transition-duration: .2s;
+}
+
+.fade-enter-active {
+  transition-delay: .2s;
+}
+
+.fade-enter, .fade-leave-active {
+  opacity: 0
+}
+
+.glow {
+  background-color:transparent;
+  width:100px;
+  height:100px;
+  border-radius:50px;
+  box-shadow: 0 0 16px #fff;
+  -webkit-animation: pulse 2.75s linear 1s infinite;
+}
+
+.glow p {
+  display:block;
+  text-align: center;
+  line-height: 100px;
+  font-family:sans-serif;
+  font-weight:100;
+  font-size:24px;
+  color: #ea4c89;
+  text-shadow: 0 0 4px #fff;
+}

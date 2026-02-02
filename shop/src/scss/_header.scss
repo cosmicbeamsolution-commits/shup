@@ -1,0 +1,86 @@
+.slipper {
+  padding: 0.75rem 1.5rem;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  z-index: 20;
+  background-color: #fafafa;
+}
+.top-logo {
+  min-height: 3rem;
+  min-width: 3rem;
+}
+.is-header-component {
+  padding: 1.5rem 0;
+  .background {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 15px;
+    width: 100%;
+    height: 180px;
+    min-height: 180px;
+    margin-bottom: 1.75rem;
+    background-color: $theme-color;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    .logo {
+      margin-bottom: -4rem;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      background-color: #e4e4e4;
+      border: 7px solid var(--themecolor);
+      width: 125px;
+      height: 125px;
+      border-radius: 100px;
+    }
+  }
+  .is-account-info {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    .text {
+      margin-bottom: 0;
+      padding-top: 1rem;
+      .description {
+        max-width: 450px;
+      }
+    }
+  }
+}
+
+@include tablet {
+  .slipper {
+    box-shadow: 0 0 0.5rem rgba(0,0,0,0.095);
+  }
+}
+
+@include touch {
+  .is-header-component {
+    padding-top: 0;
+    .background {
+      border-top-left-radius: 0;
+      border-top-right-radius: 0;
+    }
+    .is-account-info {
+      .text {
+        margin-top: 2rem;
+        h1 {
+          margin-bottom: 0.25rem;
+        }
+      }
+    }
+  }
+}
+
+@include mobile {
+  .slipper {
+    padding-right: 0.5rem;
+  }
+  .top-logo {
+    img {
+      height: 28px;
+    }
+  }
+}

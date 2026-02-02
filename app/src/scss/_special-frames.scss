@@ -1,0 +1,262 @@
+$themecolor: #f4f3ef;
+.is-special-frame {
+	padding-left: 0.25rem;
+	padding-right: 0.25rem;
+	padding-bottom: 1rem;
+	h1, h3 {
+		font-weight: 800;
+	}
+	.is-link {
+		cursor: pointer;
+		color: #999;
+		text-decoration: underline;
+	}
+	.is-left-list {
+		position: relative;
+		border-left: 2px solid $themecolor;
+		padding-top: 3rem;
+		padding-left: 2rem;
+		padding-right: 2rem;
+		max-width: 850px;
+		margin: 0 auto;	
+
+		&:after {
+			content: ' ';
+			display: inline-block;
+			width: 20px;
+			height: 20px;
+			position: absolute;
+			bottom: -15px;
+			left: -11px;
+			background-image: url('/img/icons/dot1.svg');
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: 20px;
+		}
+
+		.caps {
+			position: relative;
+			&:before {
+				content: '';
+				display: inline-block;
+				width: 40px;
+				height: 40px;
+				position: absolute;
+				left: -3.25rem;
+				top: -5.75rem;
+				background-image: url('/img/icons/Cup.svg');
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: 100px;
+			}
+		}
+
+		h4 {
+			color: #616161;
+			font-weight: 800;
+
+			&:before {
+				content: ' ';
+				display: inline-block;
+				width: 40px;
+				height: 40px;
+				position: absolute;
+				top: 50px;
+				left: -21px;
+				background-image: url('/img/icons/dot1.svg');
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: 40px;
+			}
+		}
+
+		h6 {
+			margin-top: 0.75rem;
+			position: relative;
+			&:before {
+				content: ' ';
+				display: inline-block;
+				width: 20px;
+				height: 20px;
+				position: absolute;
+				top: -2px;
+				left: -55px;
+				background-image: url('/img/icons/dot1.svg');
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: 20px;
+			}	
+		}
+
+		p {
+			color: #999999;
+			max-width: 400px;
+		}
+
+		h6 + p {
+			color: #616161;
+		}
+
+	}
+
+	.is-right-list {
+		position: relative;
+		border-right: 2px solid $themecolor;
+		padding-top: 3rem;
+		padding-left: 2rem;
+		padding-right: 2rem;
+		max-width: 850px;
+		margin: 0 auto;	
+
+		&:after {
+			content: ' ';
+			display: inline-block;
+			width: 20px;
+			height: 20px;
+			position: absolute;
+			bottom: -15px;
+			right: -11px;
+			background-image: url('/img/icons/dot1.svg');
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: 20px;
+		}
+
+		h4 {
+			color: #616161;
+			font-weight: 800;
+			&:after {
+				content: ' ';
+				display: inline-block;
+				width: 40px;
+				height: 40px;
+				position: absolute;
+				top: 50px;
+				right: -21px;
+				background-image: url('/img/icons/dot1.svg');
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: 40px;
+			}
+		}
+
+		h6 {
+			margin-top: 0.75rem;
+			position: relative;
+			&:before {
+				content: ' ';
+				display: inline-block;
+				width: 20px;
+				height: 20px;
+				position: absolute;
+				top: -2px;
+				right: -55px;
+				background-image: url('/img/icons/dot1.svg');
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: 20px;
+			}	
+		}
+
+		p {
+			margin-left: auto;
+			color: #999999;
+			max-width: 400px;
+		}
+	}
+
+	.is-icon-list {
+		max-width: 860px;
+		margin: 0 auto;	
+		padding-top: 1rem;
+		padding-bottom: 1rem;
+
+		h2 {
+			font-weight: 800;
+			margin-bottom: 0.5rem;
+		}
+
+		p {
+			max-width: 350px;
+		}
+
+		.is-background {
+			min-width: 200px;
+			min-height: 400px;
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: contain;
+		}
+
+		.salones {
+			background-image: url('/img/icons/Salones.svg')
+		}
+
+		.fotografos {
+			background-image: url('/img/icons/Fotografia.svg')
+		}
+
+		.catering {
+			background-image: url('/img/icons/Catering.svg')
+		}
+	}
+}
+
+@include desktop {
+	.is-left-list {
+		border-right: 2px solid $themecolor;
+		.caps {
+			&:after {
+				content: '';
+				display: inline-block;
+				width: 40px;
+				height: 40px;
+				position: absolute;
+				right: -3.25rem;
+				top: -5.75rem;
+				background-image: url('/img/icons/Cup.svg');
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: 100px;
+			}
+		}
+	}
+	.is-icon-list {
+		.column:not(.is-3) {
+			margin-left: 2rem;
+			margin-right: 2rem;
+		}
+	}
+	.is-bottom-message {
+		min-height: 500px;
+	}
+}
+
+@include touch {
+	.is-left-list {
+		margin-top: 3.5rem!important;
+	}
+	.is-right-list {
+		margin-top: 6.5rem!important;
+		.caps {
+			position: relative;
+			&:after {
+				content: '';
+				display: inline-block;
+				width: 40px;
+				height: 40px;
+				position: absolute;
+				right: -3.25rem;
+				top: -5.75rem;
+				background-image: url('/img/icons/Cup.svg');
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: 100px;
+			}
+		}
+	}
+	.is-bottom-message {
+		min-height: 200px;
+		margin-top: 7rem;
+	}
+}

@@ -1,0 +1,51 @@
+.modal-card {
+  width: $modal-card-width;
+  overflow-y: auto;
+}
+
+.modal-card-foot {
+  background-color: $modal-card-foot-background-color;
+}
+
+.modal-content {
+	overflow: hidden;
+}
+
+.modal-background {
+	background-color: var(--themecolor);
+}
+
+.modal-close::before, .modal-close::after {
+	background-color: var(--textcolor)
+}
+
+@include mobile {
+  .modal .animation-content .modal-card {
+    width: $modal-card-width-mobile;
+    max-height: 100vh;
+    height: 100vh;
+    margin: 0 auto;
+    .is-card-text {
+      padding-top: 0;
+    }
+    .modal-card-head {
+    	border-radius: 0;
+    }
+    .modal-card-foot {
+    	border-radius: 0;
+    }
+    .modal-card-body {
+    	padding-top: 0;
+    	padding-bottom: 0;
+    }
+    .card-prev, .card-next {
+    	top: 15%;
+    }
+  }
+  .animation-content {
+    height: 100%;
+  }
+	.modal-close::before, .modal-close::after {
+		background-color: $dark;
+	}
+}

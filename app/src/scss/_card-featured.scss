@@ -1,0 +1,59 @@
+.card-featured {
+	background-color: white;
+	.card-content {
+		.columns {
+			.column {
+				&.is-3 {
+					width: 75px;
+				}
+			}
+		}
+	}
+
+	.svg-icon {
+		display: inline-block;
+		min-width: 24px;
+	}
+	.card-icons {
+		min-height: 40px;
+	}
+
+	label {
+		font-size: 14px;
+	}
+
+	h5 {
+		font-weight: 800;
+	}
+
+	p {
+		padding-top: 0.25rem;
+		font-size: 13px;
+		color: #999999;
+	}
+}
+
+
+@include desktop {
+	.card-featured {
+		.card-content {
+			.columns {
+				.column {
+					&.is-3 {
+						width: 100px;
+					}
+				}
+			}
+		}
+	}
+}
+
+@include mobile {
+	.card-featured {
+		.card-content {
+			.is-menu-text {
+				padding: 0;
+			}
+		}
+	}
+}

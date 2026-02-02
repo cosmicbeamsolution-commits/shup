@@ -1,0 +1,31 @@
+.gallery-provider {
+	max-height: 200px;
+	margin-bottom: 1.5rem;
+	background-color: white;
+	&.is-extended {
+		max-height: 400px;
+		.is-background {
+			min-height: 400px;
+			.plyr {
+				min-height: 400px;
+				video {
+					min-height: 400px;
+				}
+			}
+		}
+	}
+	.is-background {
+		min-height: 200px;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;		
+		.plyr {
+			min-height: 200px;
+			max-height: 300px;
+			video {
+				min-height: 200px;
+				max-height: 300px;
+			}
+		}
+	}
+}

@@ -1,0 +1,122 @@
+.slipper {
+  padding: 0.75rem 1.5rem;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+  background-color: #fafafa;
+}
+
+.top-logo {
+  img {
+    height: 35px;
+  }
+}
+
+.top {
+  padding-left: 0.5rem;
+  background-color: $base-color;
+  transition: all 0.25 linear;
+
+  .top-menu {
+    > a {
+      margin-left: 0.75rem;
+      margin-right: 1.25rem;
+      padding: 0.5rem;
+      text-decoration: none;
+      font-size: 15px;
+      font-weight: 600;
+      &:hover, .active {
+        border-bottom: white;
+        color: $dark;
+      }    
+    }
+  }
+
+  .top-container {
+    max-width: 1224px;
+    position: relative;
+    margin: 0 auto;
+    > .column {
+      padding: 0;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+    }
+  }
+
+  .menu-burger {
+    position: absolute;
+    top: 1.25rem;
+    right: 1.5rem;
+    z-index: 100;
+    -webkit-user-select: none;
+    cursor: pointer;
+    -webkit-transition: .4s;
+    transition: .4s;
+    -webkit-transform-origin: center;
+            transform-origin: center;
+    svg {
+      width: 28px;
+      height: 28px;
+    }
+  }
+
+  .menu-items {
+    display: none;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    .navbar-item {
+      a {
+        color: $dark;
+      }
+    }
+    .copyright {
+      padding-top: 1.5rem;
+      font-size: 0.85rem;
+    }
+    .list {
+      background-color: transparent;
+      box-shadow: none;
+      .list-item {
+        background-color: transparent;
+        border:none;
+        padding: 0.75rem 1.5rem;
+        a {
+          color: $dark;
+          font-size: 15px;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+}
+
+@include mobile {
+  .slipper {
+    padding-right: 0.5rem;
+  }
+  .top-logo {
+    img {
+      height: 28px;
+    }
+  }
+}
+
+@include touch {
+  .top {
+    min-height: 60px;
+    .top-logo {
+      position: absolute;
+      left: 1rem;
+      top: 1.25rem;
+    }
+  }
+}
+
+@include desktop {
+  .top {
+    padding-top: 2.75rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}

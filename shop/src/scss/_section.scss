@@ -1,0 +1,25 @@
+.is-fit-section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.is-content {
+  position: relative;
+  padding-top: 1rem;
+  z-index: 10;
+}
+
+@include mobile {
+  .is-content {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+  .section {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+

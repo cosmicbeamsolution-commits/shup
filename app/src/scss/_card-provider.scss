@@ -1,0 +1,61 @@
+.card-provider {
+	.svg-icon {
+		display: inline-block;
+		min-width: 24px;
+	}
+
+	.card-content {
+		.card-main {
+			position: relative;
+			> .is-mobile {
+				margin-bottom: 0;
+				padding-bottom: 0;
+			}
+			> .card-menu {
+				position: absolute;
+				top: 0;
+				right: -0.75rem;
+			}
+		}
+		.columns {
+			>.column {
+				&.is-2 {
+					width: 75px;
+				}
+			}
+		}
+	}
+
+	.card-icons {
+		white-space: nowrap;
+		min-height: 40px;
+	}
+
+	h5 {
+		font-weight: 700;
+	}
+
+	label {
+		font-size: 14px;
+	}
+
+	p {
+		padding-top: 0.25rem;
+		font-size: 13px;
+		color: #999999;
+	}
+}
+
+@include desktop {
+	.card-provider {
+		.card-content {
+			.columns {
+				>.column {
+					&.is-2 {
+						width: 100px;
+					}
+				}
+			}
+		}
+	}
+}
