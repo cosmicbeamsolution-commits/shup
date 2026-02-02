@@ -20,6 +20,7 @@ const corsOptions = {
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE"
 }
 
+
 // app.set('trust proxy', true)
 app.set('etag', false)
 app.use(compression())
