@@ -94,7 +94,7 @@ export default {
         country_iso: '',
         country: ''
       },
-      allowedCountries: ['ar'],
+      allowedCountries: ['es-AR'],
       clock: 0,
       isLoading: false,
       shopLoading: false,
