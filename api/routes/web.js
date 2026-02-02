@@ -29,7 +29,7 @@ let routes = app => {
 	/******************* app */
 	router.post('/contact', application.contact)
 	router.post('/newsletter', application.newsletter)
-	// router.get('/basic', application.basic)
+	router.get('/basic', application.basic)
 	router.get('/getBasicData', application.getBasicData)
 	router.post('/page', application.page)
 
